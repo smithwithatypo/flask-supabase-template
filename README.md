@@ -50,7 +50,7 @@ This is a basic template for a Flask application that connects to Supabase.
 - in Supabase, go to the Table Editor tab, then create a new table
     - name it “your_table_name”
     - add one column named “message”, then set the Type to “text”
-    - <details> <summary>img<summary> ![create table](https://github.com/smithwithatypo/flask-supabase-template/blob/main/images/create_table.png) </details>
+    - <details> <summary>img</summary> ![create table](https://github.com/smithwithatypo/flask-supabase-template/blob/main/images/create_table.png) </details>
     - 
     - ![add column](https://github.com/smithwithatypo/flask-supabase-template/blob/main/images/add_column.png)
 
