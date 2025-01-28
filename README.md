@@ -50,9 +50,9 @@ This is a basic template for a Flask application that connects to Supabase.
 - in Supabase, go to the Table Editor tab, then create a new table
     - name it “your_table_name”
     - add one column named “message”, then set the Type to “text”
-    - < img create_table >
     - ![create table](https://github.com/smithwithatypo/flask-supabase-template/blob/main/images/create_table.png)
-    - < img add_column >
+    - ![add column](https://github.com/smithwithatypo/flask-supabase-template/blob/main/images/add_column.png)
+
 - start your Flask app
     - in your terminal, in that directory
         - $ python -m venv venv
@@ -61,7 +61,7 @@ This is a basic template for a Flask application that connects to Supabase.
         - python app.py
 - in Postman, send a GET request to the root directory
     - url == “http://127.0.0.1:5000/”
-    - < img for GET_postman >
+    - ![get postman](https://github.com/smithwithatypo/flask-supabase-template/blob/main/images/GET_postman.png)
 - in Postman, send a POST request to add a message
     - url == “http://127.0.0.1:5000/add_message”
     - click POST, change your url, click “raw” radio button, click “JSON” from dropdown menu
@@ -69,11 +69,13 @@ This is a basic template for a Flask application that connects to Supabase.
         - each attribute matches your column names in your table
         - “id” and “created_at” columns will auto-fill with data
         - { “message”: “hello” }
-        - < img for post_success and post_supabase >
+        - ![post raw json](https://github.com/smithwithatypo/flask-supabase-template/blob/main/images/POST_raw_json.png)
+        - ![post success](https://github.com/smithwithatypo/flask-supabase-template/blob/main/images/POST_success.png)
+        - ![post supabase](https://github.com/smithwithatypo/flask-supabase-template/blob/main/images/POST_supabase.png)
 - in Postman, send a GET request to “/message” to see all your messages
     - url == “http://127.0.0.1:5000/messages”
     - select “none” for your Body
-    - < img GET_messages >
+    - ![get messages](https://github.com/smithwithatypo/flask-supabase-template/blob/main/images/GET_messages.png)
 
 - Resources
     - Supabase docs:  https://supabase.com/docs/reference/python
