@@ -40,7 +40,7 @@ This is a basic template for a Flask application that connects to Supabase.
     - name it
     - create a DB password and save it somewhere
     - use default Region
-    - in Security, disable RLS  (row level security)
+    - uncheck Row Level Security (RLS)
     - use defaults everywhere else
 - git clone the code:
     - https://github.com/smithwithatypo/flask-supabase-template
