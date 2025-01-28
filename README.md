@@ -51,6 +51,7 @@ This is a basic template for a Flask application that connects to Supabase.
     - name it “your_table_name”
     - add one column named “message”, then set the Type to “text”
     - < img create_table >
+    - ![create table](https://github.com/smithwithatypo/flask-supabase-template/blob/main/images/create_table.png)
     - < img add_column >
 - start your Flask app
     - in your terminal, in that directory
